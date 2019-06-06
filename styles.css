@@ -1,0 +1,145 @@
+body {
+	background-color: black;
+	color: #ffffff;
+	width: 100%;
+}
+
+h1 {
+	color: #1ad1ce;
+	height: fit-content;
+	width: 50%;
+}
+
+h2 {
+	margin-right: 5px;
+	width: 50%;
+}
+
+h3 {
+	margin-left: 10px;
+}
+
+header {
+	align-items: center;
+	justify-content: space-between;
+	height: 150px;
+	margin: 5px;
+	width: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+}
+
+li {
+	color: #ffffff;
+	padding: 5px;
+}
+
+nav {
+	margin-right: 10px;
+}
+
+main {
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+section {
+	margin: 10px;
+	width: 100%;
+}
+
+img {
+	height: 500px;
+	margin: 10px;
+	width: 63%;
+}
+
+
+article {
+	width: 100%;
+}
+
+form {
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	width: 63%;
+}
+
+input {
+	justify-content: center;
+}
+
+footer {
+	justify-content: center;
+}
+
+.flex {
+	display: flex;
+}
+
+.main-heading {
+	font-size: 50px;
+	margin: 0px;
+	text-align: center;
+	width: 100%;
+}
+
+.main-sub-heading {
+	margin: 0px;
+	text-align: center;
+}
+
+.main-description {
+	margin: 0px;
+	text-align: center;
+}
+
+.music-player {
+	margin-right: 10px;
+	width: 75%;
+}
+
+.main-middle-section {
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.main-contact-area {
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.section-top-right {
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.form-name-input {
+	height: 33px;
+	margin-right: 10px;
+	width: 47%;
+}
+
+.form-email-input {
+	height: 33px;
+	width: 47%;
+}
+
+.form-subject-input {
+	margin-top: 10px;
+	height: 33px;
+}
+
+.form-message-input {
+	height: 120px;
+	margin-top: 10px;
+	text-overflow: clip;
+	width: 50%;
+}
