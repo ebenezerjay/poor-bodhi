@@ -5,7 +5,6 @@ body {
 }
 
 h1 {
-	color: #1ad1ce;
 	height: fit-content;
 	width: 50%;
 }
@@ -16,14 +15,14 @@ h2 {
 }
 
 h3 {
-	margin-left: 10px;
+	padding-top: 5%;
+	margin: 5%;
 }
 
 header {
 	align-items: center;
 	justify-content: space-between;
 	height: 150px;
-	margin: 5px;
 	width: 100%;
 }
 
@@ -33,6 +32,7 @@ a {
 
 ul {
 	list-style: none;
+	padding-top: 5%;
 }
 
 li {
@@ -41,11 +41,12 @@ li {
 }
 
 nav {
-	margin-right: 10px;
+	margin-right: 5%;
 }
 
 main {
 	flex-wrap: wrap;
+	margin-right: 5%;
 	width: 100%;
 }
 
@@ -83,8 +84,16 @@ footer {
 	display: flex;
 }
 
+.bodhi-color {
+	color: #1ad1ce;
+}
+
+.nav-list-color {
+	color: #ffffff;
+}
+
 .main-heading {
-	font-size: 50px;
+	font-size: 100px;
 	margin: 0px;
 	text-align: center;
 	width: 100%;
@@ -96,7 +105,7 @@ footer {
 }
 
 .main-description {
-	margin: 0px;
+	margin: 0px 5%;
 	text-align: center;
 }
 
@@ -115,11 +124,19 @@ footer {
 	justify-content: center;
 }
 
+.band-image {
+	width: 50%;
+}
+
 .section-top-right {
 	align-items: center;
 	flex-wrap: wrap;
 	justify-content: center;
 }
+
+.contact-h2 {
+	width: 100%;
+	text-align: center;}
 
 .form-name-input {
 	height: 33px;
@@ -135,10 +152,11 @@ footer {
 .form-subject-input {
 	margin-top: 10px;
 	height: 33px;
+	width: 75%;
 }
 
 .form-message-input {
-	height: 120px;
+	height: 70px;
 	margin-top: 10px;
 	text-overflow: clip;
 	width: 50%;
