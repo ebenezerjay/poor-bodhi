@@ -188,6 +188,7 @@ footer {
 }
 
 .audio-img {
+	height: 600px;
 	margin: auto;
-	width: 45%;
+	width: 40%;
 }
