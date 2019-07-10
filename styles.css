@@ -167,7 +167,18 @@ footer {
 
 /* Audio page */
 
-audio {
+.audio-article {
+	color: antiquewhite;
+	flex-wrap: wrap;
 	margin: auto;
 	width: 30%;
+}
+
+.audio-h2 {
+	margin: 5% auto;
+}
+
+.bible-h2 {
+	margin-left: 5px;
+	width: 100%;
 }
