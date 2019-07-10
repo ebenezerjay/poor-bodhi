@@ -192,3 +192,18 @@ footer {
 	margin: auto;
 	width: 40%;
 }
+
+/* Visual page */ 
+
+video {
+	height: 400px;
+	margin: auto;
+  width: 50%;
+}
+
+.visual-h2 {
+	color: #ffffff;
+	margin: 0px;
+	text-align: center;
+	width: 100%;
+}
