@@ -1,3 +1,4 @@
+
 body {
 	background-color: black;
 	color: #ffffff;
@@ -62,7 +63,6 @@ img {
 	width: 63%;
 }
 
-
 article {
 	width: 100%;
 }
@@ -81,6 +81,8 @@ footer {
 	justify-content: center;
 }
 
+
+/* class selectors  */
 .flex {
 	display: flex;
 }
@@ -161,4 +163,11 @@ footer {
 	margin-top: 10px;
 	text-overflow: clip;
 	width: 50%;
+}
+
+/* Audio page */
+
+audio {
+	margin: auto;
+	width: 30%;
 }
