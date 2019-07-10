@@ -1,6 +1,7 @@
 
 body {
-	background-color: black;
+	background-image: url("images/stars-canva-background.jpg");
+	/* background-color: black; */
 	color: #ffffff;
 	width: 100%;
 }
@@ -170,15 +171,23 @@ footer {
 .audio-article {
 	color: antiquewhite;
 	flex-wrap: wrap;
+	justify-content: center;
 	margin: auto;
-	width: 30%;
+	width: 100%;
 }
 
 .audio-h2 {
 	margin: 5% auto;
+	text-align: center;
+	width: 100%;
 }
 
 .bible-h2 {
 	margin-left: 5px;
 	width: 100%;
+}
+
+.audio-img {
+	margin: auto;
+	width: 45%;
 }
